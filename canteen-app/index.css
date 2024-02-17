@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Josefin+Sans:ital,wght@1,300&family=Noto+Sans+Cherokee:wght@300&family=Poppins&family=Solitreo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --trimary: #fea116;
+    --light: #f1f8ff;
+    --dark: #0f172b;
+}
+
+/*font-family: 'Fira Sans', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Noto Sans Cherokee', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Solitreo', cursive;*/
+
+/*font-family: 'Satisfy', cursive;
+font-family: 'Solitreo', cursive;*/
+
+/* //navbar css  */
+.navbar{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    line-height: 26px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px gray;
+    --webkit-box-shadow:0 8px 6px -6px gray;
+    border-bottom: solid gray !important;
+}
+
+.nav-link{
+    font-weight: 300 !important;
+}
+
+.active{
+    border-bottom: 1px solid black;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-family: 'roboto', sans-serif;
+    letter-spacing: 3px;
+}
+
+/*---------footer-----------*/
+.footer{
+    color: white;
+    padding: 20px;
+    background: black;
+   
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.footer a:hover{
+    color: #0ED6D0;
+    border-bottom: 1px solid #0ED6D0;
+    font-weight: 400;
+}
+
+/*--------page not found---------*/
+.pnf{
+    display: flex;
+    min-height: 65vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pnf-title{
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.pnf-heading{
+    font-weight: normal;
+}
+ 
+.pnf-btn{
+    color: #ee5b71;
+    border: 1px solid #ee5b71;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.pnf-btn:hover{
+    background-color: #d16c7b;
+    color: white;
+}
+
+/*-----------register page-----------*/
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    flex-direction: column;
+}
+
+/*----------admin product page---------*/
+.product-link{
+    text-decoration: none !important;
+    color: black !important;
+    
+}
+
+/*-----------food card---------------*/
+
+
+
